@@ -31,6 +31,9 @@
 header {
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url("../images/developer.png") , url("../images/header_bg.png");
+    background-position: left center , bottom right;
+    background-repeat: no-repeat;
     
 }
 header nav {
@@ -69,4 +72,44 @@ nav .menu a {
   color: #474747;
   font-size: 20px;
   text-decoration: none;
+}
+
+#hero-container {
+  max-width: 1332px;
+  margin: 46px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero-container .hero-content{
+  max-width: 585px;
+}
+
+#hero-container .hero-content h2 {
+  font-size: 45px;
+  color: #474747;
+  font-weight: 600;
+  margin-bottom: 5px;
+  
+}
+
+#hero-container .hero-content h1 {
+  font-size: 85px;
+  color: #181818;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#hero-container .hero-content p {
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+#hero-container .hero-image img {
+  max-width: 584px;
+  vertical-align: middle;
+
 }
