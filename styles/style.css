@@ -24,6 +24,12 @@
   color: white;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.about-heading {
+  max-width: 827px ;
+  text-align: center;
 }
 
 /* Main Style */
@@ -112,4 +118,49 @@ nav .menu a {
   max-width: 584px;
   vertical-align: middle;
 
+}
+
+#about {
+  
+  padding-top: 130px;
+}
+
+#about .about-container {
+  width: 71%;
+  max-width: 1140px;
+  padding: 131px 157px;
+  margin: 0 auto;
+  background-color: #FFF8F3;
+  text-align: center;
+}
+
+#about .about-container .about-heading h2 {
+  font-size: 35px ;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+}
+#about .about-container .about-heading p {
+  font-size: 18px ;
+  color: #757575;
+  line-height: 30px;
+}
+
+#about .about-container .about-info {
+  max-width: 782px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .about-container .about-info .info-card p  {
+  font-size: 20px ;
+  line-height: 30px;
+  color: #757575;
+}
+#about .about-container .about-info .info-card h4  {
+  font-size: 20px ;
+  line-height: 30px;
+  color: #474747;
+  font-weight: bold;
 }
