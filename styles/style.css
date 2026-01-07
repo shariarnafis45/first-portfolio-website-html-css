@@ -27,6 +27,18 @@
   cursor: pointer;
 }
 
+.hero-contact-btn {
+  background-color: white;
+  border: 1px solid #FD6E0A;
+  padding: 18px 35px;
+  margin-left: 30px;
+  border-radius: 5px;
+  color: #FD6E0A;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .heading {
   max-width: 827px ;
   text-align: center;
