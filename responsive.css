@@ -1,0 +1,24 @@
+.hide {
+    display: none !important;
+}
+
+@media screen and (max-width:576px) {
+    #about {
+    padding-top: 60px;
+}
+
+    #about .about-container {
+    width: 95%;
+    padding: 0;
+}
+
+    #about .about-container .about-info{
+        gap: 30px;
+    }
+
+
+    #about .about-container .about-info {
+        flex-direction: column;
+    }
+
+}
