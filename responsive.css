@@ -6,18 +6,26 @@
     #about {
     padding-top: 60px;
 }
+    #skill{
+        padding-top: 100px;
+    }
 
     #about .about-container {
     width: 95%;
     padding: 0;
 }
+    #skill .skill-container, .skill-card-div .skill-card {
+        width: 95%;
+        max-width: 95%;
+        
+    }
 
     #about .about-container .about-info{
         gap: 30px;
     }
 
 
-    #about .about-container .about-info {
+    #about .about-container .about-info , #skill .skill-container .skill-card-div {
         flex-direction: column;
     }
 
